@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+section {
+    display: flex;
+}
+
+.nav {
+    background:#fff;
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.09);
+    width:100%;
+    height:90px;
+}
+
+.navLeft {
+    margin-left: 40px;
+    display: inline-block;
+    float: left;
+}
+
+.navRight {
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+
+.logo {
+    background-image: url("../image/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 98px;
+    margin-top: 33px;
+}
+
+.menu {
+    margin-top: 33px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family:LiGothicMed;
+    font-size:16px;
+    color:#0531a0;
+    letter-spacing:0.27px;
+    text-align:center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    padding-top: 152px;
+    padding-bottom: 132px;
+    width: 100%;
+    border:1px solid #e5e5e5;
+}
+
+.title {
+    font-family:LiGothicMed;
+    font-size:50px;
+    color:#333333;
+    letter-spacing:0.86px;
+    text-align:center;
+    margin-bottom: 37px;
+    letter-spacing: 2px;
+    width: 80%;
+}
+
+.subscribute {
+    font-family:AnonymicePowerline;
+    font-size:18px;
+    color:#3b3d3e;
+    letter-spacing:0px;
+    text-align:center;
+    margin-bottom: 60px;
+    width: 80%;
+    line-height: 30px;
+}
+
+button {
+    background:#5082ff;
+    border:1px solid #2f65eb;
+    box-shadow:0px 4px 14px 0px rgba(0,0,0,0.17);
+    border-radius:4px;
+    width:auto;
+    height:54px;
+    padding: 14px 46px;
+    font-family:LiGothicMed;
+    font-size:28px;
+    color:#ffffff;
+    letter-spacing:0px;
+    text-align:center;
+    letter-spacing: 1px;
+}
+
+.content2 {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.proj {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.projTitle {
+    display: block;
+    font-family:LiGothicMed;
+    font-size:22px;
+    color:#333333;
+    letter-spacing:0.38px;
+    text-align:center;
+    margin-bottom: 16px;
+}
+
+.projSubscri {
+    display: block;
+    font-family:AnonymicePowerline;
+    font-size:14px;
+    color:#333333;
+    letter-spacing:0.24px;
+    text-align:center;
+    margin-bottom: 38px;
+}
+
+.projImg {
+    display: block;
+    background:#f3f3f3;
+    border:1px solid #e9e9e9;
+    width:90%;
+    height:255px;
+}
+
+.content3 {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.content4 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+.goodAt {
+    margin-bottom: 40px;
+}
+
+.skillImg {
+    background:#f3f3f3;
+    border:1px solid #e9e9e9;
+    width:24%;
+    height:157px;
+    float: left;
+    margin-right: 80px;
+}
+
+
+.skillTitle {
+    font-family:LiGothicMed;
+    font-size:32px;
+    color:#333333;
+    letter-spacing:0.55px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.skillSubs {
+    font-family:AnonymicePowerline;
+    font-size:16px;
+    color:#3b3d3e;
+    letter-spacing:0px;
+    line-height:35px;
+}
